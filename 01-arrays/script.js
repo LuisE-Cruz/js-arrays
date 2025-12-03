@@ -6,7 +6,8 @@ const teachers = [
   'Carlo',
   'Lewis',
   'Luca'
-]; // NON MODIFICARE QUESTA VARIABILE
+];
+// NON MODIFICARE QUESTA VARIABILE
 
 // for (let i = 0; i < teachers.length; i++) {
 //   console.log(teachers[i]);
@@ -21,7 +22,8 @@ const fourthTeacher = "Il nome del quarto professore è " + teachers[3];
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
 
-teachers.splice(4, 1, 'Patrick')
+teachers[4] = 'Patrick'
+// teachers.splice(4, 1, 'Patrick')
 // console.log(teachers)
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
